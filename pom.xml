@@ -332,6 +332,16 @@ under the License.
 					<version>${flink.version}</version>
 					<scope>provided</scope>
 				</dependency>
+				
+				
+<dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.2.3</version>
+  <type>maven-plugin</type>
+</dependency>
+
+				
 				<dependency>
 					<groupId>org.apache.flink</groupId>
 					<artifactId>flink-streaming-java_2.11</artifactId>
@@ -349,10 +359,3 @@ under the License.
 	</profiles>
 </project>
 
-
-<dependency>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>3.2.3</version>
-  <type>maven-plugin</type>
-</dependency>
